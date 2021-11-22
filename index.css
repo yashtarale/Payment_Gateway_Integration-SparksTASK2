@@ -1,11 +1,24 @@
-
-
 *{
     margin: 0;
 
     padding: 0;
     box-sizing:border-box;
 }
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsiveabout {
+    width: 100%;
+   max-width: 550px;
+   max-height: 280px;
+    border-radius: 5px;
+  }
  button{
     width: 180px;
     padding: 15px;
